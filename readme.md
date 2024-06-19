@@ -44,6 +44,8 @@ echo nome_pasta/ > .gitignore
 echo > .gitignore 
 //Para remover a pasta a ser ignorada no commit
 
+git add . 
+//Para adicionar todos os arquivos e epastas de uma única vez
   ```
 
   ## 🔎 Referências 
