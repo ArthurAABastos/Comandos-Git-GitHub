@@ -32,6 +32,12 @@ git remote add origin [link do Repositório]
 
 git status
 
+git add [nome do arquivo]
+
+git commit -m"identificação do commit"
+
+git log 
+
   ```
 
   ## 🔎 Referências 
