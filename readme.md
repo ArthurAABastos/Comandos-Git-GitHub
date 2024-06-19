@@ -1,3 +1,4 @@
+
 # DIO | Resumos Git & GitHub
 
 Repositório para armazenar resumos sobre o Git e GitHub do curso de Vrsionamento de Código do Git e GitHub do [BootCamp Santander](https://web.dio.me/track/santander-2024-backend-com-java).
@@ -21,17 +22,17 @@ Repositório para armazenar resumos sobre o Git e GitHub do curso de Vrsionament
 
 ## ⌨️ Comandos
   ```
-git init [nome do repositório]
+git init <nome do repositório>
 
-git clone [link do Repositório]
+git clone <link do Repositório>
 
 git remote -v
 
-git remote add origin [link do Repositório]
+git remote add origin <link do Repositório>
 
 git status
 
-git add [nome do arquivo]
+git add <nome do arquivo>
 
 git commit -m"identificação do commit"
 
