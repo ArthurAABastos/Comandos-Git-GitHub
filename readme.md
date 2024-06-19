@@ -38,6 +38,12 @@ git commit -m"identificação do commit"
 
 git log 
 
+echo nome_pasta/ > .gitignore 
+//comando para adicionar uma pasta a ser ingnorada no commit
+
+echo > .gitignore 
+//Para remover a pasta a ser ignorada no commit
+
   ```
 
   ## 🔎 Referências 
