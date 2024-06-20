@@ -109,7 +109,8 @@ git remote add origin <url-do-repositorio>
 git push -u origin main
 // Envia suas alterações para o repositório remoto
 
-
+git pull
+// Puxa as alteraçãos do repositório remoto para o repositório local.
 
   ```
 
