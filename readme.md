@@ -40,6 +40,9 @@ git commit -m"identificação do commit"
 
 git log 
 
+git reflog 
+// Exibe um log mais detalhado dos commit's
+
 echo nome_pasta/ > .gitignore 
 //comando para adicionar uma pasta a ser ingnorada no commit
 
@@ -96,9 +99,6 @@ Resumo:
 --hard: Perde todas as alterações e retorna ao estado do commit especificado.
 
 #########################################################################
-  
-git reflog 
-// Exibe um log mais detalhado dos commit's
 
   ```
 
