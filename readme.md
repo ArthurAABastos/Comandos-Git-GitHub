@@ -22,6 +22,7 @@ Repositório para armazenar resumos sobre o Git e GitHub do curso de Vrsionament
 ## ⌨️ Comandos
   ```
 git init <nome do repositório>
+//cria um repositório local
 
 git clone <link do Repositório>
 
@@ -99,6 +100,16 @@ Resumo:
 --hard: Perde todas as alterações e retorna ao estado do commit especificado.
 
 #########################################################################
+
+############### ENVIANDO E BAIXANDO NO REPOSITÓRIO LOCAL ################
+
+git remote add origin <url-do-repositorio>
+// Comando para conectar ao repositório local ao repositório remoto.
+
+git push -u origin main
+// Envia suas alterações para o repositório remoto
+
+
 
   ```
 
