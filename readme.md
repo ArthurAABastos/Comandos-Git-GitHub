@@ -1,4 +1,3 @@
-
 # DIO | Resumos Git & GitHub
 
 Repositório para armazenar resumos sobre o Git e GitHub do curso de Vrsionamento de Código do Git e GitHub do [BootCamp Santander](https://web.dio.me/track/santander-2024-backend-com-java).
@@ -45,7 +44,62 @@ echo > .gitignore
 //Para remover a pasta a ser ignorada no commit
 
 git add . 
-//Para adicionar todos os arquivos e epastas de uma única vez
+//Para adicionar todos os arquivos e epastas de uma única vez para a área de preparação.
+
+########## Desfazendo alterações no respositório local ##########
+
+rm -rf <diretorio>
+//Comando para remover todo um diretório.
+
+git restore 
+//Recupera todas as mudanças efetuadas na árvore de trabalho.
+
+git commit --amend -m"novo nome para o commit"
+// Comando para mudar a mensagem de identificação do último commit
+
+git reset <diretorio/nome_arquivo>
+//
+
+git reset --soft <hash do commit que quer restaurar>
+
+--> Efeito: Redefine apenas o ponteiro da branch atual (HEAD) para o commit especificado.
+
+--> Área de stage: As mudanças no commit permanecem na área de stage.
+Trabalho atual: As alterações ficam inalteradas no diretório de trabalho.
+
+--> Uso: Útil quando você quer desfazer um commit, mas manter as alterações prontas para serem novamente commitadas.
+
+
+git reset --mixed <hash do commit que quer restaurar>
+// para remover um arquivo da área de preparação.
+
+--> Efeito: Redefine o ponteiro da branch atual (HEAD) e a área de stage para o commit especificado.
+
+--> Área de stage: As mudanças no commit são removidas da área de stage.
+Trabalho atual: As alterações ficam inalteradas no diretório de trabalho.
+
+--> Uso: Útil quando você quer desfazer um commit e preparar novamente as alterações para um novo commit.
+
+git reset --hard <hash do commit que quer restaurar>
+
+--> Efeito: Redefine o ponteiro da branch atual (HEAD), a área de stage e o diretório de trabalho para o commit especificado.
+
+--> Área de stage: As mudanças no commit são removidas da área de stage.
+Trabalho atual: As alterações no diretório de trabalho são perdidas e tudo é redefinido para o estado do commit especificado.
+
+--> Uso: Útil quando você quer desfazer completamente um commit e todas as alterações associadas, retornando ao estado exato do commit especificado. Atenção: as mudanças serão perdidas permanentemente.
+
+Resumo:
+
+--soft: Mantém as alterações na área de stage.
+--mixed: Mantém as alterações no diretório de trabalho, mas limpa a área de stage.
+--hard: Perde todas as alterações e retorna ao estado do commit especificado.
+
+#########################################################################
+  
+git reflog 
+// Exibe um log mais detalhado dos commit's
+
   ```
 
   ## 🔎 Referências 
