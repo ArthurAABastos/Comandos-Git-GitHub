@@ -33,6 +33,9 @@ git status
 
 git add <nome do arquivo>
 
+git add . 
+//Para adicionar todos os arquivos e epastas de uma única vez para a área de preparação.
+
 git commit -m"identificação do commit"
 
 git log 
@@ -42,9 +45,6 @@ echo nome_pasta/ > .gitignore
 
 echo > .gitignore 
 //Para remover a pasta a ser ignorada no commit
-
-git add . 
-//Para adicionar todos os arquivos e epastas de uma única vez para a área de preparação.
 
 ########## Desfazendo alterações no respositório local ##########
 
@@ -58,7 +58,7 @@ git commit --amend -m"novo nome para o commit"
 // Comando para mudar a mensagem de identificação do último commit
 
 git reset <diretorio/nome_arquivo>
-//
+// Remove um arquivo especifico da area de trabalho 
 
 git reset --soft <hash do commit que quer restaurar>
 
