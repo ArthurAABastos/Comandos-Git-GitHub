@@ -118,11 +118,17 @@ git checkout -b <nome-nova-branch>
 git checkout main
 // Comando para retornar a branch main e desfazer as alterações.
 
+git branch
+// Lista todas as branch do respositório
+
 git branch -v
 // Lista o último commit de cada branch
 
 git merge <nome-da-branch>
 // Mescla as alterações da branch teste na branch main
+
+git branch -d <nome-branch-a-exluir>
+// Comando para excluir uma branch
 
   ```
 
