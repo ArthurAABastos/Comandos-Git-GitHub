@@ -112,6 +112,18 @@ git push -u origin main
 git pull
 // Puxa as alteraçãos do repositório remoto para o repositório local.
 
+git checkout -b <nome-nova-branch>
+// Comando para cirar um branch de teste.
+
+git checkout main
+// Comando para retornar a branch main e desfazer as alterações.
+
+git branch -v
+// Lista o último commit de cada branch
+
+git merge <nome-da-branch>
+// Mescla as alterações da branch teste na branch main
+
   ```
 
   ## 🔎 Referências 
