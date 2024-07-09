@@ -140,6 +140,24 @@ ex: git diff main origin/main
 git merge origin/main
 // Comando para trazer as informações remotas para o repositório local
 
+git clone <URL-repositorio-remoto> --branch teste1 --single-branch
+// Esse comando permite clonar para o repositorio remoto apenas uma branch que se queira clonar. 
+
+git stash
+//Comando para salvar(arquivar) as modificações realizadas em uma branch
+
+git stash list 
+//Comando para listar as modificações arquivadas em uma branch
+
+git stash pop
+// Comando para recuperar as informações de uma branch arquivada.
+
+git stash apply
+// Comando para manter as modificações realizadas na branch antes do arquivamento.
+
+
+
+
   ```
 
   ## 🔎 Referências 
