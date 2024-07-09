@@ -130,6 +130,16 @@ git merge <nome-da-branch>
 git branch -d <nome-branch-a-exluir>
 // Comando para excluir uma branch
 
+git fetch origin main 
+// Comando para baixar as informações do repositório remoto, sem mesclar com o repositório local.
+
+git diff <nome-da-branch> <nome-da-branch>  
+ex: git diff main origin/main
+// Comando para ver a fiferença entre duas branches
+
+git merge origin/main
+// Comando para trazer as informações remotas para o repositório local
+
   ```
 
   ## 🔎 Referências 
